@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: state-sales-forecasting-service
+Version: 0.1.0
+Summary: Production-style weekly sales forecasting service with model selection and FastAPI.
+Requires-Python: >=3.10
+Requires-Dist: pandas>=2.2
+Requires-Dist: numpy>=1.26
+Requires-Dist: scikit-learn>=1.4
+Requires-Dist: statsmodels>=0.14
+Requires-Dist: prophet>=1.1
+Requires-Dist: xgboost>=2.0
+Requires-Dist: tensorflow>=2.15
+Requires-Dist: fastapi>=0.110
+Requires-Dist: uvicorn[standard]>=0.27
+Requires-Dist: holidays>=0.44
+Requires-Dist: joblib>=1.3
