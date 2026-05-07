@@ -42,7 +42,7 @@ python -m forecasting_service.training --data "/Users/pge7181/Desktop/New projec
 ## Run API
 
 ```bash
-uvicorn forecasting_service.api:app --reload
+python -m uvicorn forecasting_service.api:app --reload
 ```
 
 Then open:
