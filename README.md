@@ -28,6 +28,12 @@ pip install -e .
 ```
 
 ## Train
+conda create -n forecasting311 python=3.11 -y
+conda activate forecasting311
+cd "/Users/pge7181/Desktop/New project"
+pip install -r requirements.txt
+pip install -e .
+python -m forecasting_service.training --data data/sales_history.csv --horizon 8
 
 ```bash
 python -m forecasting_service.training --data "/Users/pge7181/Desktop/New project/data/sales_history.csv" --horizon 8
